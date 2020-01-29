@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  justify-content: center;
+}
+
+.tile {
+  border: 5px solid crimson;
+  border-style: outset;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+}
+
+.bombed {
+  border: 5px solid crimson;
+  border-style: inset;
+  
+}
+.explored {
+  background-color: yellow;
+}
+
+html {
+  
+}
